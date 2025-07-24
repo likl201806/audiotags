@@ -1,0 +1,10 @@
+/Users/likonglin/flutterpj/audiotags/rust/target/debug/deps/libversion_check-e981dbfb6127ecaf.rmeta: /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/lib.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/version.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/channel.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/date.rs
+
+/Users/likonglin/flutterpj/audiotags/rust/target/debug/deps/libversion_check-e981dbfb6127ecaf.rlib: /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/lib.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/version.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/channel.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/date.rs
+
+/Users/likonglin/flutterpj/audiotags/rust/target/debug/deps/version_check-e981dbfb6127ecaf.d: /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/lib.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/version.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/channel.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/date.rs
+
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/lib.rs:
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/version.rs:
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/channel.rs:
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/version_check-0.9.5/src/date.rs:

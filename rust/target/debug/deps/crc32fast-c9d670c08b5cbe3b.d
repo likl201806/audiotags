@@ -1,0 +1,10 @@
+/Users/likonglin/flutterpj/audiotags/rust/target/debug/deps/libcrc32fast-c9d670c08b5cbe3b.rmeta: /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/lib.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/baseline.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/combine.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/specialized/mod.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/table.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/specialized/aarch64.rs
+
+/Users/likonglin/flutterpj/audiotags/rust/target/debug/deps/crc32fast-c9d670c08b5cbe3b.d: /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/lib.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/baseline.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/combine.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/specialized/mod.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/table.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/specialized/aarch64.rs
+
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/lib.rs:
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/baseline.rs:
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/combine.rs:
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/specialized/mod.rs:
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/table.rs:
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/crc32fast-1.5.0/src/specialized/aarch64.rs:
