@@ -213,13 +213,13 @@
     },
     {
       "name": "freezed",
-      "rootUri": "file:///Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/freezed-3.0.0-0.0.dev",
+      "rootUri": "file:///Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/freezed-2.5.7",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.0"
     },
     {
       "name": "freezed_annotation",
-      "rootUri": "file:///Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/freezed_annotation-3.1.0",
+      "rootUri": "file:///Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/freezed_annotation-2.4.4",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -416,6 +416,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "source_gen",
+      "rootUri": "file:///Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/source_gen-1.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "source_span",
       "rootUri": "file:///Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/source_span-1.10.0",
       "packageUri": "lib/",
@@ -548,7 +554,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2025-07-25T07:01:25.150865Z",
+  "generated": "2025-07-25T07:14:55.057343Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///Users/likonglin/flutter",

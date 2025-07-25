@@ -240,9 +240,9 @@ class RustLibApiImpl extends RustLibApiImplPlatform implements RustLibApi {
     // Codec=Dco (DartCObject based), see doc to use other codecs
     switch (raw[0]) {
       case 0:
-        return const AudioTagsError_InvalidPath();
+        return AudioTagsError_InvalidPath();
       case 1:
-        return const AudioTagsError_NoTags();
+        return AudioTagsError_NoTags();
       case 2:
         return AudioTagsError_OpenFile(
           message: dco_decode_String(raw[1]),
@@ -421,9 +421,9 @@ class RustLibApiImpl extends RustLibApiImplPlatform implements RustLibApi {
     var tag_ = sse_decode_i_32(deserializer);
     switch (tag_) {
       case 0:
-        return const AudioTagsError_InvalidPath();
+        return AudioTagsError_InvalidPath();
       case 1:
-        return const AudioTagsError_NoTags();
+        return AudioTagsError_NoTags();
       case 2:
         var var_message = sse_decode_String(deserializer);
         return AudioTagsError_OpenFile(message: var_message);

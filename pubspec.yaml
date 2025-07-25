@@ -21,7 +21,7 @@ dependencies:
   ffi: any
   meta: any
   uuid: any
-  freezed_annotation: any
+  freezed_annotation: ^2.4.1
 
   # Needed to run codegen. Uncomment to run codegen, otherwise keep it commented so the package can be published.
   # rust_lib_audiotags:
@@ -35,7 +35,7 @@ dev_dependencies:
   flutter_lints: any
   ffigen: any
   build_runner: any
-  freezed: any
+  freezed: ^2.5.2
   analyzer: any
 
   # --- [新增] 以下是根据您的报错信息补全的、缺失的依赖 ---
