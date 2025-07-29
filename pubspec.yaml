@@ -37,11 +37,3 @@ flutter:
       android:
         package: com.erikas.audiotags
         pluginClass: AudiotagsPlugin
-      ios:
-        pluginClass: AudiotagsPlugin
-      linux:
-        pluginClass: AudiotagsPlugin
-      macos:
-        pluginClass: AudiotagsPlugin
-      windows:
-        pluginClass: AudiotagsPluginCApi
