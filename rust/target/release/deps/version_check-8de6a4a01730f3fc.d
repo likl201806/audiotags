@@ -1,0 +1,10 @@
+/Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/audiotags-1.4.5/rust/target/release/deps/version_check-8de6a4a01730f3fc.d: /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/lib.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/version.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/channel.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/date.rs
+
+/Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/audiotags-1.4.5/rust/target/release/deps/libversion_check-8de6a4a01730f3fc.rlib: /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/lib.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/version.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/channel.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/date.rs
+
+/Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/audiotags-1.4.5/rust/target/release/deps/libversion_check-8de6a4a01730f3fc.rmeta: /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/lib.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/version.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/channel.rs /Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/date.rs
+
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/lib.rs:
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/version.rs:
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/channel.rs:
+/Users/likonglin/.cargo/registry/src/mirrors.ustc.edu.cn-5857e57f01837ef8/version_check-0.9.5/src/date.rs:

@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/audiotags-1.4.5/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/likonglin/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/audiotags-1.4.5/android/.cxx/Debug/1k2e6124/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/likonglin/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/audiotags-1.4.5/android/.cxx/Debug/1k2e6124/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

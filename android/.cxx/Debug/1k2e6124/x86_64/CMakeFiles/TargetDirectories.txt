@@ -1,0 +1,2 @@
+/Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/audiotags-1.4.5/android/.cxx/Debug/1k2e6124/x86_64/CMakeFiles/edit_cache.dir
+/Users/likonglin/.pub-cache/hosted/pub.flutter-io.cn/audiotags-1.4.5/android/.cxx/Debug/1k2e6124/x86_64/CMakeFiles/rebuild_cache.dir
