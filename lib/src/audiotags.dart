@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'rust/frb_generated.dart';
 
 import 'rust/api/api.dart' as api;
@@ -14,20 +16,25 @@ class AudioTags {
   /// Read the metadata at the given path. Returns
   /// a [Tag] or null if there is no metadata.
   static Future<Tag?> read(String path) async {
-    if (!_initialized) {
-      await RustLib.init();
-      _initialized = true;
-    }
-
-    try {
-      return await api.read(path: path);
-    } on AudioTagsError catch (e) {
-      switch (e) {
-        case AudioTagsError_NoTags():
-          return null;
-        default:
-          rethrow;
+    if (Platform.isAndroid) {
+      if (!_initialized) {
+        await RustLib.init();
+        _initialized = true;
       }
+
+      try {
+        return await api.read(path: path);
+      } on AudioTagsError catch (e) {
+        switch (e) {
+          case AudioTagsError_NoTags():
+            return null;
+          default:
+            rethrow;
+        }
+      }
+    } else {
+      print("audiotags: This plugin is only supported on Android.");
+      return null;
     }
   }
 
@@ -36,11 +43,16 @@ class AudioTags {
   ///
   /// Can throw a [AudioTagsError].
   static Future<void> write(String path, Tag tag) async {
-    if (!_initialized) {
-      await RustLib.init();
-      _initialized = true;
-    }
+    if (Platform.isAndroid) {
+      if (!_initialized) {
+        await RustLib.init();
+        _initialized = true;
+      }
 
-    return await api.write(path: path, data: tag);
+      return await api.write(path: path, data: tag);
+    } else {
+      print("audiotags: This plugin is only supported on Android.");
+      return;
+    }
   }
 }
