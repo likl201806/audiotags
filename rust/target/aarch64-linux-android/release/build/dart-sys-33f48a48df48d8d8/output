@@ -1,4 +1,4 @@
-OUT_DIR = Some(/Users/likonglin/flutterpj/my_soundcloud/audiotags/rust/target/aarch64-linux-android/release/build/dart-sys-33f48a48df48d8d8/out)
+OUT_DIR = Some(/Users/likonglin/flutterpj/audiotags/rust/target/aarch64-linux-android/release/build/dart-sys-33f48a48df48d8d8/out)
 OPT_LEVEL = Some(3)
 TARGET = Some(aarch64-linux-android)
 HOST = Some(aarch64-apple-darwin)
@@ -31,4 +31,4 @@ ARFLAGS_aarch64_linux_android = None
 cargo:rerun-if-env-changed=ARFLAGS_aarch64-linux-android
 ARFLAGS_aarch64-linux-android = None
 cargo:rustc-link-lib=static=dart_api_dl
-cargo:rustc-link-search=native=/Users/likonglin/flutterpj/my_soundcloud/audiotags/rust/target/aarch64-linux-android/release/build/dart-sys-33f48a48df48d8d8/out
+cargo:rustc-link-search=native=/Users/likonglin/flutterpj/audiotags/rust/target/aarch64-linux-android/release/build/dart-sys-33f48a48df48d8d8/out

@@ -1,5 +1,10 @@
 use super::{error::AudioTagsError, tag::Tag};
-use lofty::{Accessor, AudioFile, ItemKey, Probe, TagExt, TaggedFile, TaggedFileExt};
+use lofty::config::WriteOptions;
+use lofty::file::TaggedFile;
+use lofty::picture::Picture;
+use lofty::prelude::*;
+use lofty::probe::Probe;
+use lofty::tag::{Tag as LoftyTag, TagType};
 
 /// Returns a `TaggedFile` at the given path.
 fn get_file(path: &str) -> Result<TaggedFile, AudioTagsError> {
@@ -50,7 +55,7 @@ pub fn write(path: String, data: Tag) -> Result<(), AudioTagsError> {
     }
 
     // Create a new tag.
-    file.insert_tag(lofty::Tag::new(file.primary_tag_type()));
+    file.insert_tag(LoftyTag::new(file.primary_tag_type()));
     let tag = file.primary_tag_mut().unwrap();
 
     // Title
@@ -109,12 +114,7 @@ pub fn write(path: String, data: Tag) -> Result<(), AudioTagsError> {
 
         tag.set_picture(
             i,
-            lofty::Picture::new_unchecked(
-                picture.picture_type.into(),
-                mime_type,
-                None,
-                picture.bytes,
-            ),
+            Picture::new_unchecked(picture.picture_type.into(), mime_type, None, picture.bytes),
         );
     }
 
@@ -130,7 +130,7 @@ pub fn write(path: String, data: Tag) -> Result<(), AudioTagsError> {
         }
     }
 
-    match tag.save_to_path(path) {
+    match tag.save_to_path(path, WriteOptions::new()) {
         Ok(_) => Ok(()),
         Err(err) => Err(AudioTagsError::Write {
             message: format!("Failed to write tag to file. {err:?}"),

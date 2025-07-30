@@ -1,4 +1,5 @@
-use lofty::{Accessor, ItemKey};
+use lofty::prelude::*;
+use lofty::tag::Tag as LoftyTag;
 
 use super::picture::Picture;
 
@@ -56,8 +57,8 @@ impl Tag {
     }
 }
 
-impl From<&lofty::Tag> for Tag {
-    fn from(tag: &lofty::Tag) -> Self {
+impl From<&LoftyTag> for Tag {
+    fn from(tag: &LoftyTag) -> Self {
         let pictures = tag
             .pictures()
             .iter()

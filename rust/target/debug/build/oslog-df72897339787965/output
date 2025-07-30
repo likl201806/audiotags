@@ -1,4 +1,4 @@
-OUT_DIR = Some(/Users/likonglin/flutterpj/my_soundcloud/audiotags/rust/target/debug/build/oslog-df72897339787965/out)
+OUT_DIR = Some(/Users/likonglin/flutterpj/audiotags/rust/target/debug/build/oslog-df72897339787965/out)
 OPT_LEVEL = Some(0)
 TARGET = Some(aarch64-apple-darwin)
 HOST = Some(aarch64-apple-darwin)
@@ -43,4 +43,4 @@ ARFLAGS_aarch64_apple_darwin = None
 cargo:rerun-if-env-changed=ARFLAGS_aarch64-apple-darwin
 ARFLAGS_aarch64-apple-darwin = None
 cargo:rustc-link-lib=static=wrapper
-cargo:rustc-link-search=native=/Users/likonglin/flutterpj/my_soundcloud/audiotags/rust/target/debug/build/oslog-df72897339787965/out
+cargo:rustc-link-search=native=/Users/likonglin/flutterpj/audiotags/rust/target/debug/build/oslog-df72897339787965/out
